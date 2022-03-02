@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ListView extends StatefulWidget {
-  const ListView({Key? key}) : super(key: key);
+class BottomNavigationBar extends StatefulWidget {
+  const BottomNavigationBar({Key? key}) : super(key: key);
 
   @override
-  State<ListView> createState() => _ListViewState();
+  State<BottomNavigationBar> createState() => _BottomNavigationBarState();
 }
 
-class _ListViewState extends State<ListView> {
+class _BottomNavigationBarState extends State<BottomNavigationBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
